@@ -36,7 +36,7 @@ Using the following Authorization header:
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdG5hbWUiOiJKb2huIiwibGFzdG5hbWUiOiJEb2UifQ.uJyAj8F-CDk7gsmnOKi8jkslaSVQOrM9at2RBEY8-lo
 ```
 
-You will receive the response `Hello, John Doe`.
+You will receive the response `Hello, John Doe`. All claims will be available on `req.token`, this example simply has a first name and last name in the JWT claims.
 
 ## License
 MIT License
