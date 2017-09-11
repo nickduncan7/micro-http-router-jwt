@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/protocol114/micro-http-router-jwt.git"
   },
-  "author": "",
+  "author": "Nick Duncan <me@protosev.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/protocol114/micro-http-router-jwt/issues"
