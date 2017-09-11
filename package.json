@@ -1,0 +1,27 @@
+{
+  "name": "micro-http-router-jwt",
+  "version": "1.0.0",
+  "description": "A JWT middleware module for micro-http-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protocol114/micro-http-router-jwt.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/protocol114/micro-http-router-jwt/issues"
+  },
+  "homepage": "https://github.com/protocol114/micro-http-router-jwt#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "jsonwebtoken": "^8.0.0"
+  },
+  "devDependencies": {
+    "micro": "^8.0.4",
+    "micro-http-router": "^1.1.0"
+  }
+}
