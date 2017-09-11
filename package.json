@@ -18,10 +18,15 @@
   "homepage": "https://github.com/protocol114/micro-http-router-jwt#readme",
   "dependencies": {
     "assert": "^1.4.1",
-    "jsonwebtoken": "^8.0.0"
+    "jsonwebtoken": "^8.0.0",
+    "micro": "^8.0.4"
   },
   "devDependencies": {
-    "micro": "^8.0.4",
-    "micro-http-router": "^1.1.0"
+    "ava": "^0.22.0",
+    "micro-http-router": "^1.2.0",
+    "nyc": "^11.2.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "test-listen": "^1.0.2"
   }
 }

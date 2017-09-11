@@ -1,13 +1,16 @@
 const micro = require('micro');
 const Router = require('micro-http-router');
-const jwt = require('../');
+const { setupJWT, verifyToken } = require('../');
 
 // Initialize the router
 const router = new Router();
 
-// or define it with your get shorthand
-router.get('/', jwt, (req, res) => {
-    return 'Hello';
+// Initialize the JWT middleware
+setupJWT({ secret: 'super secret' });
+
+// Define our protected route handler
+router.get('/', verifyToken, (req, res) => {
+    return `Hello, ${ req.token.firstname } ${ req.token.lastname }`;
 });
 
 // Start micro and listen
